@@ -1,0 +1,6 @@
+.DS_Store
+**/.DS_Store
+app/_cache
+app/config.php
+public_html/statics/photos/*
+public_html/statics/photos/_cache/*

@@ -1,0 +1,96 @@
+/*
+ *
+ * General elements
+ *
+ */
+body {
+	font-family:Helvetica, arial, sans-serif;
+	color:#333333;
+	min-width:980px;
+}
+
+
+/*
+ *
+ * Layout
+ *
+ */
+#page {
+	margin-bottom:0px;
+	position:relative;
+	width:960px;
+	margin:0 auto;
+}
+
+#header {
+	margin:0;
+	background:#ddd;
+	padding:20px;
+}
+
+#header h1 {
+	margin:0;
+	text-align:left;
+}
+
+#header h1 a {
+	text-decoration:none;
+	color:#333;
+}
+
+#header .menu ul {
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+#header .menu ul li {
+	display:block;
+	margin-right:20px;
+	float:left;
+}
+
+#header .menu ul li a {
+	display:block;
+	cursor:pointer;
+}
+
+#header .menu ul li.last {
+	margin:0;
+}
+
+#content {
+	margin:0;
+	position:relative;
+	background:#eee;
+}
+
+
+#inner {
+	margin:0 10px;
+	padding:20px 0;
+}
+
+#footer {
+	text-align:left;
+	background:#ddd;
+}
+#footer .inner {
+	padding:10px;
+}
+#footer .inner a {
+	font-size:12px;
+	text-decoration:none;
+}
+
+#footer .inner ul {
+	position:relative;
+	float:left;
+}
+
+#footer .inner li {
+	float:left;
+	margin-right:20px;
+	display:block;
+}
+

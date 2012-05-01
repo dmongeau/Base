@@ -1,0 +1,188 @@
+/*
+ *
+ * Reset
+ * 
+ */
+* { margin:0; padding:0; border:none; outline:none; list-style:none; }
+p { margin:10px 0; }
+h1 { margin:30px 0; }
+h2 { margin:20px 0; }
+h3 { margin:10px 0; }
+h4, h5 { margin:5px 0; }
+
+/*
+ *
+ * Commons
+ * 
+ */
+.fleft { float:left; }
+.fright { float:right; }
+.clear { clear:both; }
+
+.nomargin { margin:0 !important; }
+
+.mr10 { margin-right:10px; }
+.ml10 { margin-left:10px; }
+.mt10 { margin-top:10px; }
+.mb10 { margin-bottom:10px; }
+
+.mr5 { margin-right:5px; }
+.ml5 { margin-left:5px; }
+.mt5 { margin-top:5px; }
+.mb5 { margin-bottom:5px; }
+
+.mr15 { margin-right:15px; }
+.ml15 { margin-left:15px; }
+.mt15 { margin-top:15px; }
+.mb15 { margin-bottom:15px; }
+
+.mr20 { margin-right:20px; }
+.ml20 { margin-left:20px; }
+.mt20 { margin-top:20px; }
+.mb20 { margin-bottom:20px; }
+
+.spacer { display:block; width:100%; height:40px;  }
+.spacer-small { display:block; width:100%; height:20px;  }
+.spacer-large { display:block; width:100%; height:60px;  }
+
+.bigger { font-size:1.5em; }
+
+.hr {
+	display:block;
+	width:100%;
+	height:1px;
+	margin:10px 0;
+	border-bottom:solid 1px  #ddd;
+}
+
+
+/*
+ *
+ * lists
+ * 
+ */
+ol.number {
+	margin-left:30px;	
+}
+ol.number li {
+	margin-bottom:1em;
+}
+ol li ol {
+	margin-left:30px;	
+}
+ol.number, ol.number li {
+	list-style:decimal;
+}
+ol.letter, ol.letter li {
+	list-style:upper-alpha;
+}
+ul.circle, ul.circle li {
+	list-style:circle;
+}
+
+
+
+/*
+ *
+ * Forms
+ * 
+ */
+form {
+	margin:20px 0;
+}
+form .field {
+	margin-bottom:10px;
+}
+
+div.closeable {
+	cursor:pointer;
+}
+
+div.success {
+	border: solid 1px #390;
+	color:#390;
+	padding:10px 20px;
+	margin:10px 0 20px 0;
+}
+
+div.error {
+	border: solid 1px #D0383F;
+	color:#D0383F;
+	padding:10px 20px;
+	margin:10px 0 20px 0;
+}
+
+div.error ul {
+	margin:10px 0 10px 20px;
+	list-style:circle;
+}
+
+div.error li {
+	font-size:11px !important;
+	list-style:circle;
+	margin-bottom:5px;
+}
+
+form .field, form .field label {
+	display:block;
+	font-size:12px;
+}
+
+form .field label.neutral {
+	font-size:inherit;
+	display:inline;
+}
+
+form input.text, form textarea {
+	padding:2px;
+	font-size:12px;
+	width:375px;
+}
+
+form input.date {
+	width:90px;
+}
+
+input.hasHint, textarea.hasHint {
+	color:#999;
+}
+
+form input.number, form input.price {
+	width:90px;
+}
+
+form input.error {
+	border-color:#D0383F;
+}
+
+form .field .note {
+	color:#999;
+	font-size:10px;
+}
+
+a.button, button {
+	text-decoration:none;
+	padding:3px;
+	font-size:8pt;
+	border:solid 1px #333;
+	background:#ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+	color:#333;
+	white-space:nowrap;
+	background:#ddd;
+}
+a.button:active, button:active {
+	background:#ccc;
+}
+
+a.submit, button.submit {
+	font-weight:bold !important;	
+}
+
+a.button-small, button.small {
+	padding:2px;
+	font-size:10px;	
+}
