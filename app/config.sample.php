@@ -12,7 +12,7 @@ $config = array(
 	),
 	
 	'debug' => array(
-		'stats' => true
+		'stats' => false
 	),
 	
 	'db' => array(
@@ -51,8 +51,8 @@ $config = array(
 	
 	
 	'facebook' => array(
-		'appId'  => '209594579080515',
-		'secret' => 'a1416607f0a7b038455e1225f5aaf000',
+		'appId'  => 'APP_ID',
+		'secret' => 'SECRET',
 		'cookie' => true,
 	),
 	

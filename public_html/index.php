@@ -73,6 +73,7 @@ $app->setData('fbappid',$app->getConfig('facebook.appId'));
  */
 $app->addScript('https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');
 $app->addScript('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js');
+$app->addScript('/statics/js/lib/core.js');
 $app->addScript('/statics/js/app.js');
 $app->addStylesheet('/statics/css/jquery.ui.css');
 $app->addStylesheet('/statics/css/commons.css');
